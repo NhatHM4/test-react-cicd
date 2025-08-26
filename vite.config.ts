@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   preview: {
-    port: 3000
+    port: 3000,
+    allowedHosts: ['nhathm4.io.vn'], // thêm dòng này
   }
 })
